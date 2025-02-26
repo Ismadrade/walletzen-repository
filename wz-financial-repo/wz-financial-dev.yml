@@ -4,9 +4,6 @@ server:
 spring:
   application:
     name: wz-financial
-  profiles:
-    active:
-      - dev
 greeting-service:
   greeting: "Olá"
   default-value: "Mundo dev"      
