@@ -7,3 +7,7 @@ spring:
   profiles:
     active:
       - prod
+
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo prod"      
